@@ -1,0 +1,294 @@
+<!-- TEXTO DE INTRODUÇÃOD DO TUTORIAL -->
+<p>Aqui é o texto de introdução...</p>
+<!-- TEMA: BLOCOS DE INÍCIO -->
+<p>&nbsp;</p>
+<!-- TITÚLO BLOCOS DE INÍCIO -->
+<p>
+  <span class="wysiwyg-font-size-x-large"><strong>Blocos de início</strong></span>
+</p>
+<!-- TEXTO DE INTRODUÇÃO DOS BLOCOS DE INÍCIO -->
+<p>Aqui é o texto de introdução dos blocos de início</p>
+<!-- AQUI COMEÇA TODOS OS BLOCOS DE INÍCIO -->
+<div class="bd-example">
+  <div id="accordion-default" class="collapser" aria-multiselectable="true">
+    <div class="card collapser-container">
+      <div id="headingOne" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault1" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault1"><span class="collapser-title">Iniciar por um canal</span></a>
+      </div>
+      <div id="collapseDefault1" class="collapse" aria-labelledby="headingBasic1" aria-expanded="false">
+        <div class="collapser-body">
+          Inicia automaticamente quando o contato entra através de um canal
+          (Número de telefone). No exemplo a seguir, sempre que receber
+          uma nova mensagem no canal de nome denominado "Umbler", uma mensagem
+          de saudação é encaminhada automaticamente.&nbsp;<br>
+          <br>
+          <img src="/guide-media/01JFK2MZV2VSE915NDTCV8RGEH">
+        </div>
+      </div>
+    </div>
+    <div class="card collapser-container">
+      <div id="headingTwo" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault2" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault2"><span class="collapser-title">Iniciar manualmente</span></a>
+      </div>
+      <div id="collapseDefault2" class="collapse" aria-labelledby="headingBasic2" aria-expanded="false">
+        <div class="collapser-body">
+          Inicia quando o atendente ativa um fluxo já criado manualmente.
+          No exemplo a seguir, foi criado um fluxo simples que pode ser
+          adicionado sempre que necessário em um contexto de conversa.<br>
+          <br>
+          <img src="/guide-media/01JFK31RZSBN6Y29K9P4DET3KH">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- AQUI TERMINA TODOS OS BLOCOS DE INÍCIO -->
+<p>&nbsp;</p>
+<!-- TEMA: BLOCOS CONDICIONAIS -->
+<p>&nbsp;</p>
+<!-- TITÚLO BLOCOS CONDICIONAIS -->
+<p>
+  <span class="wysiwyg-font-size-x-large"><strong>Blocos condicionais</strong></span>
+</p>
+<!-- TEXTO DE INTRODUÇÃO DOS BLOCOS CONDICIONAIS -->
+<p>Aqui é o texto de introdução dos blocos condicionais.&nbsp;</p>
+<!-- AQUI COMEÇA TODOS OS BLOCOS CONDICIONAIS -->
+<div class="bd-example">
+  <div id="accordion-default" class="collapser" aria-multiselectable="true">
+    <div class="card collapser-container">
+      <div id="headingOne" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault3" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault3"><span class="collapser-title">Dias da semana</span></a>
+      </div>
+      <div id="collapseDefault3" class="collapse" aria-labelledby="headingBasic3" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <div class="card collapser-container">
+      <div id="headingTwo" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault4" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault4"><span class="collapser-title">Horários</span></a>
+      </div>
+      <div id="collapseDefault4" class="collapse" aria-labelledby="headingBasic4" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <div class="card collapser-container">
+      <div id="headingTwo" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault5" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault5"><span class="collapser-title">Definir condições</span></a>
+      </div>
+      <div id="collapseDefault5" class="collapse" aria-labelledby="headingBasic5" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- AQUI TERMINA TODOS OS BLOCOS CONDICIONAIS -->
+<p>&nbsp;</p>
+<!-- TEMA: BLOCOS DE AÇÃO -->
+<p>&nbsp;</p>
+<!-- TITÚLO BLOCOS DE AÇÃO -->
+<p>
+  <span class="wysiwyg-font-size-x-large"><strong>Blocos ação</strong></span>
+</p>
+<!-- TEXTO DE INTRODUÇÃO DOS BLOCOS CONDICIONAIS -->
+<p>Aqui é o texto de introdução dos blocos de ação</p>
+<!-- AQUI COMEÇA TODOS OS BLOCOS DE AÇÃO -->
+<p>&nbsp;</p>
+<div class="bd-example">
+  <div id="accordion-default" class="collapser" aria-multiselectable="true">
+    <!-- Item 6 -->
+    <div class="card collapser-container">
+      <div id="headingSix" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault6" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault6"><span class="collapser-title">Enviar mensagem</span></a>
+      </div>
+      <div id="collapseDefault6" class="collapse" aria-labelledby="headingBasic6" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 7 -->
+    <div class="card collapser-container">
+      <div id="headingSeven" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault7" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault7"><span class="collapser-title">Criar uma nota no chat</span></a>
+      </div>
+      <div id="collapseDefault7" class="collapse" aria-labelledby="headingBasic7" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 8 -->
+    <div class="card collapser-container">
+      <div id="headingEight" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault8" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault8"><span class="collapser-title">Transferir para setor</span></a>
+      </div>
+      <div id="collapseDefault8" class="collapse" aria-labelledby="headingBasic8" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 9 -->
+    <div class="card collapser-container">
+      <div id="headingNine" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault9" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault9"><span class="collapser-title">Transferir para atendente&nbsp;</span></a>
+      </div>
+      <div id="collapseDefault9" class="collapse" aria-labelledby="headingBasic9" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 10 -->
+    <div class="card collapser-container">
+      <div id="headingTen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault10" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault10"><span class="collapser-title">Privar ou liberar</span></a>
+      </div>
+      <div id="collapseDefault10" class="collapse" aria-labelledby="headingBasic10" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 11 -->
+    <div class="card collapser-container">
+      <div id="headingEleven" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault11" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault11"><span class="collapser-title">Pedir para escolher</span></a>
+      </div>
+      <div id="collapseDefault11" class="collapse" aria-labelledby="headingBasic11" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 12 -->
+    <div class="card collapser-container">
+      <div id="headingTwelve" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault12" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault12"><span class="collapser-title">Pedir para digitar</span></a>
+      </div>
+      <div id="collapseDefault12" class="collapse" aria-labelledby="headingBasic12" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 13 -->
+    <div class="card collapser-container">
+      <div id="headingThirteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault13" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault13"><span class="collapser-title">Enviar template</span></a>
+      </div>
+      <div id="collapseDefault13" class="collapse" aria-labelledby="headingBasic13" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 14 -->
+    <div class="card collapser-container">
+      <div id="headingFourteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault14" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault14"><span class="collapser-title">Adicionar outro fluxo</span></a>
+      </div>
+      <div id="collapseDefault14" class="collapse" aria-labelledby="headingBasic14" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 15 -->
+    <div class="card collapser-container">
+      <div id="headingFifteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault15" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault15"><span class="collapser-title">Status esperando</span></a>
+      </div>
+      <div id="collapseDefault15" class="collapse" aria-labelledby="headingBasic15" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 16 -->
+    <div class="card collapser-container">
+      <div id="headingSixteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault16" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault16"><span class="collapser-title">Chamar webhook</span></a>
+      </div>
+      <div id="collapseDefault16" class="collapse" aria-labelledby="headingBasic16" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 17 -->
+    <div class="card collapser-container">
+      <div id="headingSeventeen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault17" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault17"><span class="collapser-title">Pedir para avaliar</span></a>
+      </div>
+      <div id="collapseDefault17" class="collapse" aria-labelledby="headingBasic17" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 18 -->
+    <div class="card collapser-container">
+      <div id="headingEighteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault18" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault18"><span class="collapser-title">Pedir feedback escrito</span></a>
+      </div>
+      <div id="collapseDefault18" class="collapse" aria-labelledby="headingBasic18" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+    <!-- Item 19 -->
+    <div class="card collapser-container">
+      <div id="headingNineteen" class="collapser-header">
+        <a class="collapsed" href="#collapseDefault19" data-toggle="collapse" data-parent="#accordion-default" aria-expanded="false" aria-controls="collapseDefault19"><span class="collapser-title">Campo do contato</span></a>
+      </div>
+      <div id="collapseDefault19" class="collapse" aria-labelledby="headingBasic19" aria-expanded="false">
+        <div class="collapser-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- AQUI TERMINA TODOS OS BLOCOS DE AÇÃO -->
