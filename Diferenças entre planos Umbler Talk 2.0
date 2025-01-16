@@ -1,0 +1,671 @@
+<p>
+  O <strong>Umbler Talk</strong> oferece planos com características distintas,
+  pensados para atender diferentes tipos de negócios e momentos de crescimento.
+  As funcionalidades disponíveis variam conforme o plano escolhido, oferecendo
+  desde uma implementação mais básica, como o plano <strong>Basic</strong>, que
+  cobre as necessidades mais essenciais, até uma solução mais completa e robusta,
+  como os planos <strong>Professional</strong> e <strong>Enterprise</strong>, que
+  são ideais para quem busca mais controle e automação nos atendimentos.
+</p>
+<p>
+  A seguir, exploraremos as principais funcionalidades da plataforma – incluindo
+  criação de canais, construtor visual de chatbots, relatórios de desempenho e
+  muito mais. A tabela abaixo apresenta uma visão clara das funcionalidades nativas
+  disponíveis em cada plano: <strong>Basic</strong>,
+  <strong>Professional</strong> e <strong>Enterprise</strong>.
+</p>
+<!-- Tabela de funcionalidades -->
+<table class="table table-striped table-bordered table-hover text-xs-center wysiwyg-text-align-center">
+  <thead style="background-color: #d0e4f5; font-weight: bold;">
+    <tr>
+      <th class="text-xs-center">Características / Recursos</th>
+      <th class="text-xs-center">Basic</th>
+      <th class="text-xs-center">Professional</th>
+      <th class="text-xs-center">Enterprise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Integração com API</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Webhook</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Criação de canais</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim, 1 canal</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim, até 3 canais</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim, até 3 canais + 1 por atendente</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Número de atendentes permitidos</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> 2</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sem limite pré-estabelecido*</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sem limite pré-estabelecido*</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Chatbot básico pré-configurado</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Construtor de chatbot visual</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim, com blocos básicos</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Relatórios de conversas e atendentes</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Disparo de mensagens em massa</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Agendamento de mensagens</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Logs de atividades</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Campos personalizados</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Agentes de IA</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- Tabela de configurações -->
+<p>
+  <strong>*</strong>
+  <span class="wysiwyg-font-size-medium">Atualmente, não há um limite específico para o número de atendentes, porém, isso pode ser alterado a qualquer momento. Em caso de dúvidas, entre em contato com nosso suporte para mais informações.</span><br>
+  <br>
+  Existem também recursos específicos de
+  <strong>configurações da organização</strong>, como recursos de inatividade e
+  espera, que não fazem parte de todos os planos.
+</p>
+<table class="table table-striped table-bordered table-hover text-xs-center wysiwyg-text-align-center">
+  <thead style="background-color: #d0e4f5; font-weight: bold;">
+    <tr>
+      <th class="text-xs-center">Recursos</th>
+      <th class="text-xs-center">Basic</th>
+      <th class="text-xs-center">Professional</th>
+      <th class="text-xs-center">Enterprise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Inatividade</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Espera</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não </span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Atalhos de chatbot</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- Segunda parte -->
+<p>
+  <br>
+  Além das principais características e recursos, os planos também se diferem nos
+  blocos disponíveis na funcionalidade de
+  <strong>Construtor de Chatbot (fluxograma)</strong>. Essa ferramenta, disponível
+  nos planos <strong>Professional</strong> e <strong>Enterprise</strong>, permite
+  criar fluxos de atendimento automatizados e personalizados para atender de forma
+  eficiente. No plano Professional, você conta com passos essenciais para otimizar
+  os fluxos, enquanto no plano Enterprise todos os passos estão disponíveis, oferecendo
+  uma solução completa para o seu atendimento. A seguir, veja os passos (blocos)
+  específicos disponíveis em cada plano:
+</p>
+<table class="table table-striped table-bordered table-hover text-xs-center wysiwyg-text-align-center">
+  <thead style="background-color: #d0e4f5; font-weight: bold;">
+    <tr>
+      <th class="text-xs-center">Blocos</th>
+      <th class="text-xs-center">Basic</th>
+      <th class="text-xs-center">Professional</th>
+      <th class="text-xs-center">Enterprise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Iniciar por um canal</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Iniciar manualmente</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Dias da semana</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Horários</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Definir condição</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger">Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Enviar mensagem</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Criar uma nota no chat</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Transferir para setor</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Editar etiquetas</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Transferir para atendente</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Privar ou liberar</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Pedir para escolher</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Pedir para digitar</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Enviar template</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Adicionar outro fluxo</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Status esperando</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Chamar webhook</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Pedir para avaliar</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Pedir feedback escrito</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Campo do contato</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Aguardar</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Fluxo de inatividade</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Fluxo de espera</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Notificar atendente</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success">Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Visibilidade da conversa</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Finalizar conversa</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Bloco de notas</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não disponível no plano</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- Conclusão -->
+<p>
+  <br>
+  Esperamos que esse artigo tenha esclarecido as diferenças entre cada plano. Caso
+  ainda tenha dúvidas, fique à vontade para entrar em contato com o nosso
+  <a href="https://umbler.com/br/ajuda" target="_blank" rel="noopener noreferrer"><strong>suporte</strong></a>.
+  Estamos aqui para ajudar!
+</p>
