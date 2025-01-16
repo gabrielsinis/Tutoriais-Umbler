@@ -193,8 +193,33 @@
         <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
       </td>
     </tr>
-  </tbody>
-</table>
+    <!-- Novos itens adicionados -->
+    <tr>
+      <td class="text-xs-center">
+        <strong>Chat entre atendentes</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="text-xs-center">
+        <strong>Board de contatos</strong>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-close icon-danger align-baseline text-danger"> Não</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
+      </td>
+      <td class="text-xs-center">
+        <span class="icon icon-checked icon-success align-baseline text-success"> Sim</span>
 <!-- Tabela de configurações -->
 <p>
   <strong>*</strong>
